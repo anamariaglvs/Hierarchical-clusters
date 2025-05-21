@@ -4,5 +4,13 @@ This R project uses hierarchical clustering on USArrests data (US state crime st
 
 dist_data<-dist(USArrests)
 hclust_avg <- hclust(dist_data, 'ave') #hierarchical clustering with 'average' linkage function #i compare average of clusters
-plot(hclust_avg) #dendrogram
-![image](https://github.com/user-attachments/assets/887456cb-f849-45c5-abfe-e628372278e2)
+plot(hclust_avg,
+     hang = -1,                 # para que las etiquetas estén alineadas
+     cex = 0.6,                 # tamaño de las etiquetas
+     main = "Dendrogram of USArrests",
+     xlab = "",                 # elimina etiqueta del eje x
+     sub = "",
+     ylab = "Height")   
+![Rplotd](https://github.com/user-attachments/assets/eafe675c-2b41-40de-b44c-d0f41cf4ddc4)
+
+
