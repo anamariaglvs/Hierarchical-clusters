@@ -14,6 +14,9 @@ plot(hclust_avg,
 ![Rplotd](https://github.com/user-attachments/assets/eafe675c-2b41-40de-b44c-d0f41cf4ddc4)
 
 Summary: 
+
 -Dendrogram visualization → reveals natural groupings of states by crime patterns
+
 -Helps identify optimal cluster count → supports insights into regional crime trends
+
 -Scaled data + Euclidean distance → accurate measurement of state crime profile similarities 
